@@ -1,5 +1,7 @@
 # KAIROS
 
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white) ![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
+
 HERMES 운영에서 얻은 학습을 검증하기 위한 단순화 실험 시스템. (아카이브)
 
 같은 거래소(Bybit USDT 선물)에서 자금·텔레그램·DB를 완전히 분리해 운영하도록 설계했다.
