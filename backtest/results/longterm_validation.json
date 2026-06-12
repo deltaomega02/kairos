@@ -1,0 +1,358 @@
+{
+  "timestamp": "2026-04-08T22:07:39.864916",
+  "period": "2022-01-01 ~ 2026-04-08",
+  "results": [
+    {
+      "name": "#1 (SL2.0/TP4.0/S40/EMA7-21)",
+      "total_trades": 1258,
+      "wins": 300,
+      "win_rate": 23.8,
+      "total_pnl": 1426.29,
+      "final_balance": 1726.29,
+      "return_pct": 475.4,
+      "max_drawdown_pct": 67.1,
+      "total_fees": 519.68,
+      "long_trades": 487,
+      "long_pnl": -147.62,
+      "long_wr": 21.6,
+      "short_trades": 771,
+      "short_pnl": 1573.91,
+      "short_wr": 25.3,
+      "yearly": {
+        "2022": {
+          "trades": 277,
+          "wins": 76,
+          "pnl": 913.5235813380817
+        },
+        "2023": {
+          "trades": 311,
+          "wins": 57,
+          "pnl": -707.2287021815536
+        },
+        "2024": {
+          "trades": 285,
+          "wins": 77,
+          "pnl": 226.6811277394001
+        },
+        "2025": {
+          "trades": 296,
+          "wins": 65,
+          "pnl": 356.61207336699164
+        },
+        "2026": {
+          "trades": 89,
+          "wins": 25,
+          "pnl": 636.7010793389031
+        }
+      }
+    },
+    {
+      "name": "#2 (SL2.0/TP4.0/S40/EMA7-15)",
+      "total_trades": 1255,
+      "wins": 298,
+      "win_rate": 23.7,
+      "total_pnl": 1285.26,
+      "final_balance": 1585.26,
+      "return_pct": 428.4,
+      "max_drawdown_pct": 72.6,
+      "total_fees": 500.32,
+      "long_trades": 478,
+      "long_pnl": -164.67,
+      "long_wr": 21.3,
+      "short_trades": 777,
+      "short_pnl": 1449.93,
+      "short_wr": 25.2,
+      "yearly": {
+        "2022": {
+          "trades": 272,
+          "wins": 75,
+          "pnl": 882.1379282085614
+        },
+        "2023": {
+          "trades": 315,
+          "wins": 57,
+          "pnl": -730.5862446837504
+        },
+        "2024": {
+          "trades": 280,
+          "wins": 74,
+          "pnl": 178.35825546661704
+        },
+        "2025": {
+          "trades": 296,
+          "wins": 66,
+          "pnl": 381.9178967722079
+        },
+        "2026": {
+          "trades": 92,
+          "wins": 26,
+          "pnl": 573.4316789574611
+        }
+      }
+    },
+    {
+      "name": "#4 (SL2.0/TP4.0/S40/EMA9-26)",
+      "total_trades": 1262,
+      "wins": 304,
+      "win_rate": 24.1,
+      "total_pnl": 806.43,
+      "final_balance": 1106.43,
+      "return_pct": 268.8,
+      "max_drawdown_pct": 71.5,
+      "total_fees": 461.3,
+      "long_trades": 499,
+      "long_pnl": -99.89,
+      "long_wr": 22.4,
+      "short_trades": 763,
+      "short_pnl": 906.32,
+      "short_wr": 25.2,
+      "yearly": {
+        "2022": {
+          "trades": 306,
+          "wins": 77,
+          "pnl": 471.3634271404218
+        },
+        "2023": {
+          "trades": 309,
+          "wins": 57,
+          "pnl": -490.50740645545176
+        },
+        "2024": {
+          "trades": 278,
+          "wins": 74,
+          "pnl": 297.82463462224666
+        },
+        "2025": {
+          "trades": 286,
+          "wins": 70,
+          "pnl": 135.11885179229412
+        },
+        "2026": {
+          "trades": 83,
+          "wins": 26,
+          "pnl": 392.6322062077856
+        }
+      }
+    },
+    {
+      "name": "보수적최적 (SL2.0/TP3.0/S60/EMA9-21)",
+      "total_trades": 1480,
+      "wins": 420,
+      "win_rate": 28.4,
+      "total_pnl": 217.31,
+      "final_balance": 517.31,
+      "return_pct": 72.4,
+      "max_drawdown_pct": 104.5,
+      "total_fees": 426.12,
+      "long_trades": 574,
+      "long_pnl": 3.9,
+      "long_wr": 27.4,
+      "short_trades": 906,
+      "short_pnl": 213.41,
+      "short_wr": 29.0,
+      "yearly": {
+        "2022": {
+          "trades": 336,
+          "wins": 95,
+          "pnl": 160.2555128883069
+        },
+        "2023": {
+          "trades": 378,
+          "wins": 82,
+          "pnl": -421.47221931431943
+        },
+        "2024": {
+          "trades": 332,
+          "wins": 102,
+          "pnl": 78.80654257844442
+        },
+        "2025": {
+          "trades": 343,
+          "wins": 109,
+          "pnl": 240.9041163080254
+        },
+        "2026": {
+          "trades": 91,
+          "wins": 32,
+          "pnl": 158.81481883182113
+        }
+      }
+    },
+    {
+      "name": "SL만변경 (SL2.0/TP2.5/S60/EMA9-21)",
+      "total_trades": 1608,
+      "wins": 508,
+      "win_rate": 31.6,
+      "total_pnl": 150.47,
+      "final_balance": 450.47,
+      "return_pct": 50.2,
+      "max_drawdown_pct": 88.9,
+      "total_fees": 435.66,
+      "long_trades": 623,
+      "long_pnl": -120.56,
+      "long_wr": 29.7,
+      "short_trades": 985,
+      "short_pnl": 271.02,
+      "short_wr": 32.8,
+      "yearly": {
+        "2022": {
+          "trades": 375,
+          "wins": 120,
+          "pnl": 178.88513541832654
+        },
+        "2023": {
+          "trades": 405,
+          "wins": 99,
+          "pnl": -389.10779826221665
+        },
+        "2024": {
+          "trades": 355,
+          "wins": 126,
+          "pnl": 126.38228059914181
+        },
+        "2025": {
+          "trades": 372,
+          "wins": 124,
+          "pnl": 64.18923945392652
+        },
+        "2026": {
+          "trades": 101,
+          "wins": 39,
+          "pnl": 170.11916624859927
+        }
+      }
+    },
+    {
+      "name": "#18 (SL2.5/TP2.5/S60/EMA9-21)",
+      "total_trades": 1285,
+      "wins": 410,
+      "win_rate": 31.9,
+      "total_pnl": 127.54,
+      "final_balance": 427.54,
+      "return_pct": 42.5,
+      "max_drawdown_pct": 88.4,
+      "total_fees": 351.57,
+      "long_trades": 488,
+      "long_pnl": -58.52,
+      "long_wr": 30.7,
+      "short_trades": 797,
+      "short_pnl": 186.06,
+      "short_wr": 32.6,
+      "yearly": {
+        "2022": {
+          "trades": 297,
+          "wins": 100,
+          "pnl": 361.90743401599667
+        },
+        "2023": {
+          "trades": 330,
+          "wins": 79,
+          "pnl": -553.1169028328136
+        },
+        "2024": {
+          "trades": 281,
+          "wins": 100,
+          "pnl": 118.47864195238395
+        },
+        "2025": {
+          "trades": 301,
+          "wins": 102,
+          "pnl": 40.93589411975659
+        },
+        "2026": {
+          "trades": 76,
+          "wins": 29,
+          "pnl": 159.33630413991918
+        }
+      }
+    },
+    {
+      "name": "현재시스템 (SL1.5/TP2.5/S60/EMA9-21)",
+      "total_trades": 2132,
+      "wins": 691,
+      "win_rate": 32.4,
+      "total_pnl": 126.94,
+      "final_balance": 426.94,
+      "return_pct": 42.3,
+      "max_drawdown_pct": 82.4,
+      "total_fees": 717.58,
+      "long_trades": 828,
+      "long_pnl": -101.63,
+      "long_wr": 30.8,
+      "short_trades": 1304,
+      "short_pnl": 228.57,
+      "short_wr": 33.4,
+      "yearly": {
+        "2022": {
+          "trades": 485,
+          "wins": 162,
+          "pnl": 232.84647252811808
+        },
+        "2023": {
+          "trades": 513,
+          "wins": 136,
+          "pnl": -377.4273917856199
+        },
+        "2024": {
+          "trades": 481,
+          "wins": 170,
+          "pnl": 91.85097587849123
+        },
+        "2025": {
+          "trades": 505,
+          "wins": 167,
+          "pnl": 8.586019430045534
+        },
+        "2026": {
+          "trades": 148,
+          "wins": 56,
+          "pnl": 171.08499549735672
+        }
+      }
+    },
+    {
+      "name": "#12 (SL2.0/TP3.0/S40/EMA9-21)",
+      "total_trades": 1539,
+      "wins": 425,
+      "win_rate": 27.6,
+      "total_pnl": 79.24,
+      "final_balance": 379.24,
+      "return_pct": 26.4,
+      "max_drawdown_pct": 108.2,
+      "total_fees": 386.58,
+      "long_trades": 605,
+      "long_pnl": -130.89,
+      "long_wr": 26.0,
+      "short_trades": 934,
+      "short_pnl": 210.13,
+      "short_wr": 28.7,
+      "yearly": {
+        "2022": {
+          "trades": 344,
+          "wins": 96,
+          "pnl": 189.7544948692075
+        },
+        "2023": {
+          "trades": 372,
+          "wins": 77,
+          "pnl": -482.96015684530755
+        },
+        "2024": {
+          "trades": 356,
+          "wins": 107,
+          "pnl": 49.816105701884325
+        },
+        "2025": {
+          "trades": 373,
+          "wins": 115,
+          "pnl": 186.8840011547911
+        },
+        "2026": {
+          "trades": 94,
+          "wins": 30,
+          "pnl": 135.74453644271858
+        }
+      }
+    }
+  ]
+}

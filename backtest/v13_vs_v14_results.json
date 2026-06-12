@@ -1,0 +1,140 @@
+{
+  "config": {
+    "start": "2022-01-01",
+    "end": "2026-04-26",
+    "fees": {
+      "maker": 0.0002,
+      "taker": 0.00055,
+      "slippage": 0.0005
+    },
+    "v13_only": "TREND_PULLBACK",
+    "v14_added": "RANGE_REVERSION (RANGING+ADX<20)"
+  },
+  "v13": {
+    "BTCUSDT": {
+      "symbol": "BTCUSDT",
+      "mode": "V13",
+      "trades": 3488,
+      "wins": 1696,
+      "win_rate": 48.62385321100918,
+      "total_pct": 8846.736646519706,
+      "avg_win_pct": 6.887532287276656,
+      "avg_loss_pct": -1.5817623396771785,
+      "max_dd_pct": -167.07814374417057,
+      "by_strategy": {
+        "TREND_PULLBACK": 3488
+      },
+      "by_reason": {
+        "SL": 1701,
+        "TP": 1275,
+        "TRAILING": 211,
+        "TIMEOUT": 301
+      }
+    },
+    "ETHUSDT": {
+      "symbol": "ETHUSDT",
+      "mode": "V13",
+      "trades": 3739,
+      "wins": 1873,
+      "win_rate": 50.09360791655523,
+      "total_pct": 11098.441541569537,
+      "avg_win_pct": 7.85333564435469,
+      "avg_loss_pct": -1.9350783067024635,
+      "max_dd_pct": -197.32248278524526,
+      "by_strategy": {
+        "TREND_PULLBACK": 3739
+      },
+      "by_reason": {
+        "TRAILING": 383,
+        "TIMEOUT": 237,
+        "SL": 1796,
+        "TP": 1323
+      }
+    },
+    "SOLUSDT": {
+      "symbol": "SOLUSDT",
+      "mode": "V13",
+      "trades": 2117,
+      "wins": 358,
+      "win_rate": 16.910722720831366,
+      "total_pct": -4461.057302615714,
+      "avg_win_pct": 1.8338487844666638,
+      "avg_loss_pct": -2.9093662123108466,
+      "max_dd_pct": -4814.882539454915,
+      "by_strategy": {
+        "TREND_PULLBACK": 2117
+      },
+      "by_reason": {
+        "SL": 1739,
+        "TRAILING": 274,
+        "TIMEOUT": 99,
+        "TP": 5
+      }
+    }
+  },
+  "v14": {
+    "BTCUSDT": {
+      "symbol": "BTCUSDT",
+      "mode": "V14",
+      "trades": 3826,
+      "wins": 1870,
+      "win_rate": 48.87611082070047,
+      "total_pct": 8946.04905013892,
+      "avg_win_pct": 6.421651882246593,
+      "avg_loss_pct": -1.5656646061667736,
+      "max_dd_pct": -183.49436894696987,
+      "by_strategy": {
+        "RANGE_REVERSION": 338,
+        "TREND_PULLBACK": 3488
+      },
+      "by_reason": {
+        "TP": 1438,
+        "SL": 1856,
+        "TRAILING": 211,
+        "TIMEOUT": 321
+      }
+    },
+    "ETHUSDT": {
+      "symbol": "ETHUSDT",
+      "mode": "V14",
+      "trades": 4083,
+      "wins": 2027,
+      "win_rate": 49.64486896889542,
+      "total_pct": 11128.957690916173,
+      "avg_win_pct": 7.450760031210313,
+      "avg_loss_pct": -1.9327494612583334,
+      "max_dd_pct": -197.32248278524526,
+      "by_strategy": {
+        "TREND_PULLBACK": 3739,
+        "RANGE_REVERSION": 344
+      },
+      "by_reason": {
+        "TRAILING": 383,
+        "TP": 1460,
+        "SL": 1982,
+        "TIMEOUT": 258
+      }
+    },
+    "SOLUSDT": {
+      "symbol": "SOLUSDT",
+      "mode": "V14",
+      "trades": 2277,
+      "wins": 381,
+      "win_rate": 16.73254281949934,
+      "total_pct": -4803.99473910584,
+      "avg_win_pct": 1.8454421519882036,
+      "avg_loss_pct": -2.9045929319690647,
+      "max_dd_pct": -5144.85532250329,
+      "by_strategy": {
+        "RANGE_REVERSION": 160,
+        "TREND_PULLBACK": 2117
+      },
+      "by_reason": {
+        "SL": 1873,
+        "TRAILING": 274,
+        "TIMEOUT": 112,
+        "TP": 18
+      }
+    }
+  }
+}
