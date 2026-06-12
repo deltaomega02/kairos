@@ -6,7 +6,7 @@ import os
 from datetime import datetime, timezone, timedelta
 import pandas as pd
 
-TICK_DIR = "/Users/sue/Projects/HERMES/backtest/tick_data"
+TICK_DIR = "~/Projects/HERMES/backtest/tick_data"
 
 # V12 시기 ETH 실전 거래 (CSV 기반)
 LIVE_TRADES_ETH = [

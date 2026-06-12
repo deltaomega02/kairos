@@ -38,13 +38,13 @@ mp_ctx = mp.get_context("fork")
 
 import pandas as pd
 
-sys.path.insert(0, "/Users/sue/Projects/HERMES/backtest")
+sys.path.insert(0, "~/Projects/HERMES/backtest")
 from v3_engine import DATA_DIR
 from v4_shared_engine import run_shared_backtest
 from comprehensive_backtest import DEFAULT_PARAMS
 
 SYMBOLS = ["BTCUSDT", "ETHUSDT", "SOLUSDT", "XRPUSDT"]
-RESULTS_DIR = "/Users/sue/Projects/HERMES_백테스팅/v9"
+RESULTS_DIR = "~/Projects/HERMES_백테스팅/v9"
 os.makedirs(RESULTS_DIR, exist_ok=True)
 
 SEED = 580.0

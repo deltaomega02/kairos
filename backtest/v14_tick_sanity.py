@@ -13,7 +13,7 @@ import sys
 from datetime import datetime, timezone, timedelta
 import pandas as pd
 
-TICK_DIR = "/Users/sue/Projects/HERMES/backtest/tick_data"
+TICK_DIR = "~/Projects/HERMES/backtest/tick_data"
 
 # 운영자 실전 BTC 거래 (CSV에서 추출, KST→UTC 변환)
 LIVE_TRADES_BTC = [

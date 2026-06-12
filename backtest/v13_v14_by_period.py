@@ -130,7 +130,7 @@ def main():
         d = current_2026["v14"]["total_pct"] - current_2026["v13"]["total_pct"]
         print(f"2026 현재 (운영):     V14 vs V13 차이 {d:+.2f}%")
 
-    out_path = "/Users/sue/Projects/HERMES/backtest/v13_v14_by_period.json"
+    out_path = "~/Projects/HERMES/backtest/v13_v14_by_period.json"
     with open(out_path, "w") as f:
         json.dump(all_results, f, indent=2, default=str)
     print(f"\n결과 저장: {out_path}")

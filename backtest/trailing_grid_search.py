@@ -26,7 +26,7 @@ from comprehensive_backtest import (
 
 SYMBOLS = ["BTCUSDT", "ETHUSDT", "SOLUSDT"]
 DATA_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")
-OUTPUT_DIR = "/Users/sue/Projects/HERMES_백테스팅_v2"
+OUTPUT_DIR = "~/Projects/HERMES_백테스팅_v2"
 
 # 1위 파라미터 고정
 BEST_PARAMS = {

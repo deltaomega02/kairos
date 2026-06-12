@@ -22,7 +22,7 @@ from v3_engine import load_all_data
 from v4_shared_engine import run_shared_backtest, prepare_symbol
 from comprehensive_backtest import DEFAULT_PARAMS
 
-RESULTS_DIR = "/Users/sue/Projects/HERMES_백테스팅/v5"
+RESULTS_DIR = "~/Projects/HERMES_백테스팅/v5"
 
 BEST_PARAMS = {
     **DEFAULT_PARAMS,

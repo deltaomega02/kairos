@@ -28,7 +28,7 @@ from v3_engine import DATA_DIR
 from v4_shared_engine import run_shared_backtest
 from comprehensive_backtest import DEFAULT_PARAMS
 
-RESULTS_DIR = "/Users/sue/Projects/HERMES_백테스팅/v8"
+RESULTS_DIR = "~/Projects/HERMES_백테스팅/v8"
 os.makedirs(RESULTS_DIR, exist_ok=True)
 
 SEED = 580.0

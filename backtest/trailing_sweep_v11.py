@@ -13,12 +13,12 @@ from pathlib import Path
 from datetime import datetime
 import pandas as pd
 
-sys.path.insert(0, '/Users/sue/Projects/HERMES/backtest')
+sys.path.insert(0, '~/Projects/HERMES/backtest')
 from v9_mega_sweep import _load_data, SEED, DAILY_COST, SYMBOLS
 from comprehensive_backtest import DEFAULT_PARAMS
 from v11_all_features_engine import run_shared_backtest_v11
 
-OUT = Path('/Users/sue/Projects/HERMES_백테스팅/v12/trailing_sweep.json')
+OUT = Path('~/Projects/HERMES_백테스팅/v12/trailing_sweep.json')
 OUT.parent.mkdir(parents=True, exist_ok=True)
 
 

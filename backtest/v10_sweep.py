@@ -22,12 +22,12 @@ import numpy as np
 import multiprocessing as mp
 mp_ctx = mp.get_context("fork")
 
-sys.path.insert(0, "/Users/sue/Projects/HERMES/backtest")
+sys.path.insert(0, "~/Projects/HERMES/backtest")
 from v9_mega_sweep import _load_data, SYMBOLS, SEED, SLIP, DAILY_COST
 from comprehensive_backtest import DEFAULT_PARAMS
 from v10_multi_ema_engine import run_shared_backtest_v10
 
-RESULTS_DIR = "/Users/sue/Projects/HERMES_백테스팅/v10"
+RESULTS_DIR = "~/Projects/HERMES_백테스팅/v10"
 os.makedirs(RESULTS_DIR, exist_ok=True)
 
 _DATA = None

@@ -13,7 +13,7 @@ import pandas as pd
 import multiprocessing as mp
 mp_ctx = mp.get_context("fork")
 
-sys.path.insert(0, "/Users/sue/Projects/HERMES/backtest")
+sys.path.insert(0, "~/Projects/HERMES/backtest")
 from v4_shared_engine import run_shared_backtest
 from comprehensive_backtest import DEFAULT_PARAMS
 from v9_mega_sweep import _load_data, SYMBOLS, SEED, SLIP, DAILY_COST
@@ -95,7 +95,7 @@ def main():
     print(f"Done in {time.time()-t0:.0f}s", flush=True)
 
     # Save
-    out = os.path.join("/Users/sue/Projects/HERMES_백테스팅/v9", "v9_ema_curve.json")
+    out = os.path.join("~/Projects/HERMES_백테스팅/v9", "v9_ema_curve.json")
     with open(out, "w") as f:
         json.dump(results, f, default=str, indent=2)
 

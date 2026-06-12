@@ -15,12 +15,12 @@ from datetime import datetime
 import pandas as pd
 import numpy as np
 
-sys.path.insert(0, "/Users/sue/Projects/HERMES/backtest")
+sys.path.insert(0, "~/Projects/HERMES/backtest")
 from v9_mega_sweep import _load_data, DAILY_COST, SYMBOLS
 from comprehensive_backtest import DEFAULT_PARAMS
 from v12_realistic_engine import run_realistic_backtest
 
-RESULTS_DIR = "/Users/sue/Projects/HERMES_백테스팅/v12"
+RESULTS_DIR = "~/Projects/HERMES_백테스팅/v12"
 os.makedirs(RESULTS_DIR, exist_ok=True)
 
 V11_PARAMS = {**DEFAULT_PARAMS, "ema_fast": 3, "ema_slow": 15, "sl_atr_mult": 1.5,

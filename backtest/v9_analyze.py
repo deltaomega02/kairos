@@ -9,7 +9,7 @@ import sys
 import json
 from collections import Counter, defaultdict
 
-RESULTS_DIR = "/Users/sue/Projects/HERMES_백테스팅/v9"
+RESULTS_DIR = "~/Projects/HERMES_백테스팅/v9"
 
 
 def load(phase):

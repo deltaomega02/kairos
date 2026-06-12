@@ -13,12 +13,12 @@ from datetime import datetime
 from collections import defaultdict
 import pandas as pd
 
-sys.path.insert(0, '/Users/sue/Projects/HERMES/backtest')
+sys.path.insert(0, '~/Projects/HERMES/backtest')
 from v9_mega_sweep import _load_data, SEED, DAILY_COST, SYMBOLS
 from comprehensive_backtest import DEFAULT_PARAMS
 from v11_all_features_engine import run_shared_backtest_v11
 
-OB_DIR = Path('/Users/sue/Projects/HERMES/backtest/data/orderbook_hourly')
+OB_DIR = Path('~/Projects/HERMES/backtest/data/orderbook_hourly')
 ORDERBOOK_THRESHOLD = 0.55
 
 

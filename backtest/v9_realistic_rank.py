@@ -6,7 +6,7 @@ import json
 import os
 import sys
 
-RESULTS_DIR = "/Users/sue/Projects/HERMES_백테스팅/v9"
+RESULTS_DIR = "~/Projects/HERMES_백테스팅/v9"
 
 with open(os.path.join(RESULTS_DIR, "v9_final_ranking.json")) as f:
     data = json.load(f)

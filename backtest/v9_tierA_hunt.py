@@ -16,14 +16,14 @@ import pandas as pd
 import multiprocessing as mp
 mp_ctx = mp.get_context("fork")
 
-sys.path.insert(0, "/Users/sue/Projects/HERMES/backtest")
+sys.path.insert(0, "~/Projects/HERMES/backtest")
 from v4_shared_engine import run_shared_backtest
 from comprehensive_backtest import DEFAULT_PARAMS
 from v9_mega_sweep import (_load_data, build_base_cfg,
                            SYMBOLS, SEED, SLIP, DAILY_COST)
 from v9_validate import _run_bt, mc_bootstrap, mc_worker
 
-RESULTS_DIR = "/Users/sue/Projects/HERMES_백테스팅/v9"
+RESULTS_DIR = "~/Projects/HERMES_백테스팅/v9"
 _DATA = None
 
 

@@ -8,7 +8,7 @@ import pandas as pd
 import multiprocessing as mp
 mp_ctx = mp.get_context("fork")
 
-sys.path.insert(0, "/Users/sue/Projects/HERMES/backtest")
+sys.path.insert(0, "~/Projects/HERMES/backtest")
 from v4_shared_engine import run_shared_backtest
 from comprehensive_backtest import DEFAULT_PARAMS
 from v9_mega_sweep import _load_data, SYMBOLS, SEED, SLIP, DAILY_COST
@@ -214,7 +214,7 @@ def main():
               f"p75=${mc.get('p75',0):>12,.0f}")
 
     # Save
-    with open("/Users/sue/Projects/HERMES_백테스팅/v9/v9_ema_live_mc.json", "w") as f:
+    with open("~/Projects/HERMES_백테스팅/v9/v9_ema_live_mc.json", "w") as f:
         json.dump(by_cand, f, default=str, indent=2)
 
 

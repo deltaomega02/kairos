@@ -10,7 +10,7 @@ Takes top candidates from sweep, validates rigorously, produces final ranking.
   - Realism tiers: A (realistic), B (aggressive), C (mathematically best)
   - Composite score: Calmar × WF_pass × OOS_sign × realism_multiplier
 
-Output: /Users/sue/Projects/HERMES_백테스팅/v9/v9_final_ranking.json
+Output: ~/Projects/HERMES_백테스팅/v9/v9_final_ranking.json
 """
 import os
 import sys
@@ -24,14 +24,14 @@ import pandas as pd
 import multiprocessing as mp
 mp_ctx = mp.get_context("fork")
 
-sys.path.insert(0, "/Users/sue/Projects/HERMES/backtest")
+sys.path.insert(0, "~/Projects/HERMES/backtest")
 from v3_engine import DATA_DIR
 from v4_shared_engine import run_shared_backtest
 from comprehensive_backtest import DEFAULT_PARAMS
 from v9_mega_sweep import (_load_data, build_base_cfg,
                            SYMBOLS, SEED, SLIP, DAILY_COST)
 
-RESULTS_DIR = "/Users/sue/Projects/HERMES_백테스팅/v9"
+RESULTS_DIR = "~/Projects/HERMES_백테스팅/v9"
 
 _DATA = None
 

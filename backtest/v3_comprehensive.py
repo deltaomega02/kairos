@@ -27,7 +27,7 @@ from comprehensive_backtest import (
     BacktestRegimeEngine, align_regime_to_entry, INITIAL_BALANCE,
 )
 
-RESULTS_DIR = "/Users/sue/Projects/HERMES_백테스팅_v3"
+RESULTS_DIR = "~/Projects/HERMES_백테스팅_v3"
 os.makedirs(RESULTS_DIR, exist_ok=True)
 
 # 1위 파라미터 (v2에서 검증)

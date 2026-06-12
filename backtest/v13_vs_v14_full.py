@@ -24,7 +24,7 @@ from typing import Dict, List, Optional, Tuple, Any
 import pandas as pd
 import numpy as np
 
-DATA_DIR = "/Users/sue/Projects/HERMES/backtest/data"
+DATA_DIR = "~/Projects/HERMES/backtest/data"
 
 # 설정 (V13/V14 공통)
 INITIAL_BALANCE = 600.0
@@ -642,7 +642,7 @@ def main():
         "v13": results_v13,
         "v14": results_v14,
     }
-    out_path = "/Users/sue/Projects/HERMES/backtest/v13_vs_v14_results.json"
+    out_path = "~/Projects/HERMES/backtest/v13_vs_v14_results.json"
     with open(out_path, "w") as f:
         json.dump(output, f, indent=2)
     print(f"\n결과 저장: {out_path}")

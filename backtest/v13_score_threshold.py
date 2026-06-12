@@ -108,7 +108,7 @@ def main():
             r = cur[thr]
             print(f"임계 {thr}: {r['trades']}거래, {r['win_rate']:.1f}% 승률, 총 {r['total_pct']:+.2f}%, 거래당 {r['avg_per_trade_pct']:+.4f}%")
 
-    out = "/Users/sue/Projects/HERMES/backtest/v13_score_threshold_results.json"
+    out = "~/Projects/HERMES/backtest/v13_score_threshold_results.json"
     with open(out, "w") as f:
         json.dump(all_results, f, indent=2, default=str)
     print(f"\n결과 저장: {out}")

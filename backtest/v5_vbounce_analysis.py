@@ -293,7 +293,7 @@ def main():
         ],
     }
 
-    out_path = "/Users/sue/Projects/HERMES_백테스팅/v5/v5_vbounce_analysis.json"
+    out_path = "~/Projects/HERMES_백테스팅/v5/v5_vbounce_analysis.json"
     os.makedirs(os.path.dirname(out_path), exist_ok=True)
     with open(out_path, "w") as f:
         json.dump(output, f, indent=2, ensure_ascii=False, default=str)

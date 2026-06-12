@@ -11,12 +11,12 @@ from datetime import datetime
 from collections import defaultdict
 import pandas as pd
 
-sys.path.insert(0, "/Users/sue/Projects/HERMES/backtest")
+sys.path.insert(0, "~/Projects/HERMES/backtest")
 from v9_mega_sweep import _load_data, SEED, SLIP, DAILY_COST, SYMBOLS
 from comprehensive_backtest import DEFAULT_PARAMS
 from v11_all_features_engine import run_shared_backtest_v11
 
-RESULTS_DIR = "/Users/sue/Projects/HERMES_백테스팅/v11"
+RESULTS_DIR = "~/Projects/HERMES_백테스팅/v11"
 
 # 실전 거래 (사용자 기록 기준, KST)
 ACTUAL_TRADES = [

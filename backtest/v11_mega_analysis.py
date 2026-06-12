@@ -19,13 +19,13 @@ from collections import defaultdict
 import pandas as pd
 import numpy as np
 
-sys.path.insert(0, '/Users/sue/Projects/HERMES/backtest')
+sys.path.insert(0, '~/Projects/HERMES/backtest')
 from v9_mega_sweep import _load_data, SEED, DAILY_COST, SYMBOLS
 from comprehensive_backtest import DEFAULT_PARAMS
 from v11_all_features_engine import run_shared_backtest_v11
 
-OB_DIR = Path('/Users/sue/Projects/HERMES/backtest/data/orderbook_hourly')
-OUT = Path('/Users/sue/Projects/HERMES_백테스팅/v11/mega_edge.json')
+OB_DIR = Path('~/Projects/HERMES/backtest/data/orderbook_hourly')
+OUT = Path('~/Projects/HERMES_백테스팅/v11/mega_edge.json')
 OUT.parent.mkdir(parents=True, exist_ok=True)
 
 

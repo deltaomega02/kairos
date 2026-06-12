@@ -13,12 +13,12 @@ from datetime import datetime
 from collections import defaultdict
 import pandas as pd
 
-sys.path.insert(0, '/Users/sue/Projects/HERMES/backtest')
+sys.path.insert(0, '~/Projects/HERMES/backtest')
 from v9_mega_sweep import _load_data, SEED, DAILY_COST, SYMBOLS
 from comprehensive_backtest import DEFAULT_PARAMS
 from v11_all_features_engine import run_shared_backtest_v11
 
-OB_DIR = Path('/Users/sue/Projects/HERMES/backtest/data/orderbook_hourly')
+OB_DIR = Path('~/Projects/HERMES/backtest/data/orderbook_hourly')
 ORDERBOOK_THRESHOLD = 0.55
 
 
@@ -225,7 +225,7 @@ def main():
     print('  (주의: bootstrap은 단순 순 PnL 합. 복리 시드성장/DD 미반영)')
 
     # Save
-    save_path = Path('/Users/sue/Projects/HERMES_백테스팅/v11/orderbook_full_8mo.json')
+    save_path = Path('~/Projects/HERMES_백테스팅/v11/orderbook_full_8mo.json')
     save_path.parent.mkdir(parents=True, exist_ok=True)
     out = {
         'ran_at': datetime.now().isoformat(),

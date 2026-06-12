@@ -19,12 +19,12 @@ from collections import defaultdict
 import pandas as pd
 import numpy as np
 
-sys.path.insert(0, "/Users/sue/Projects/HERMES/backtest")
+sys.path.insert(0, "~/Projects/HERMES/backtest")
 from v9_mega_sweep import _load_data, SYMBOLS, SEED, SLIP, DAILY_COST
 from comprehensive_backtest import DEFAULT_PARAMS
 from v10_multi_ema_engine import run_shared_backtest_v10
 
-RESULTS_DIR = "/Users/sue/Projects/HERMES_백테스팅/v10"
+RESULTS_DIR = "~/Projects/HERMES_백테스팅/v10"
 
 V8_PARAMS = {
     **DEFAULT_PARAMS,

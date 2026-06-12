@@ -14,7 +14,7 @@ import requests
 
 SYMBOLS = ["BTCUSDT", "ETHUSDT", "SOLUSDT", "XRPUSDT"]
 URL_BASE = "https://quote-saver.bycsi.com/orderbook/linear"
-OUT_DIR = Path("/Users/sue/Projects/HERMES/backtest/data/orderbook_hourly")
+OUT_DIR = Path("~/Projects/HERMES/backtest/data/orderbook_hourly")
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 DEPTH = 25  # 실전 엔진 기본값과 일치
 
