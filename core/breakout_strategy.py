@@ -11,7 +11,7 @@ LONG 진입. 다음날 시가에 청산. SL은 진입가 -2%.
 - 진입 1회/일
 
 이 단순함이 KAIROS의 정체성. 추가 지표/필터를 넣고 싶을 때
-CLAUDE.md 안티패턴 룰을 다시 읽을 것.
+안티패턴 룰(공개 저장소에는 미포함된 내부 문서)을 다시 읽을 것.
 """
 
 from dataclasses import dataclass
